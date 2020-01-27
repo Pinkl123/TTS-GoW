@@ -1,0 +1,575 @@
+{
+  "SaveName": "Roulette",
+  "GameMode": "Roulette",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "1/27/2020 9:48:55 AM",
+  "Table": "Table_Square",
+  "Sky": "Sky_Forest",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "MusicPlayer": {
+    "RepeatSong": false,
+    "PlaylistEntry": -1,
+    "CurrentAudioTitle": "RollWin",
+    "CurrentAudioURL": "http://cloud-3.steamusercontent.com/ugc/780747252121735913/FCCEB8C58BC64FAD4C0610581BB8E910ED159B9A/",
+    "AudioLibrary": [
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/780747252121748044/5EC7D41AEE57CA90BDF4F6C49142EB0A00A1CE11/",
+        "Item2": "Roll"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/780747252121735913/FCCEB8C58BC64FAD4C0610581BB8E910ED159B9A/",
+        "Item2": "RollWin"
+      }
+    ]
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 14.3801279,
+          "posY": 5.20459747,
+          "posZ": 0.141296387,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.459595,
+          "scaleY": 6.645818,
+          "scaleZ": 3.54278183
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 0.03270398,
+          "posY": 5.20355225,
+          "posZ": -14.3988571,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.392746,
+          "scaleY": 6.645818,
+          "scaleZ": 3.528625
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.03270398,
+          "posY": 5.19726563,
+          "posZ": 14.299963,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 9.428382,
+          "scaleY": 6.645818,
+          "scaleZ": 3.54104185
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -14.2912292,
+          "posY": 5.20459747,
+          "posZ": -0.05830002,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.459595,
+          "scaleY": 6.645818,
+          "scaleZ": 3.54278183
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -5.21545649,
+        "posY": 0.9493464,
+        "posZ": -8.605544,
+        "rotX": 2.42900733E-05,
+        "rotY": 345.012543,
+        "rotZ": 3.344698E-06,
+        "scaleX": 0.03,
+        "scaleY": 0.02,
+        "scaleZ": 0.03
+      },
+      "Nickname": "1 lvl",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://pastebin.com/raw/tUS5xGQN",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/934928288649344958/BC78068F17A83CFC0952E8917FA5D6367CD80453/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 6,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "--[[ Infinite random bag scripted by Skor. Place any number of various objects into the bag, and you will draw \n        a random one of the objects every time. Each time you take an object out of the bag, it will be cloned and replaced\n        so it's possible to draw the same object again. --]]\n\n--[[ If an object is removed from this container, clone the object and put the clone into the container --]]\n\nfunction onObjectLeaveContainer(container, object)\n    if container == self then\n        self.putObject(object.clone({['position'] = {self.getPosition().x, self.getPosition().y + 2, self.getPosition().z} }))\n        startLuaCoroutine(self, 'delayedShuffle')\n    end\nend\n\n--[[ Wait three frames to allow the clone time to spawn and enter the container, then shuffle the container.\n        If issues arise where you keep drawing the same object (if you have a ridiculously high framerate), try increasing the 3\n        in the for loop to a higher number. --]]\n\nfunction delayedShuffle()\n    for i = 1, 3 do\n        coroutine.yield(0)\n    end\n    self.shuffle()\n    return 1\nend",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -5.21545649,
+            "posY": 5.028693,
+            "posZ": -8.605544,
+            "rotX": 0.0435434654,
+            "rotY": 180.031158,
+            "rotZ": 359.88266,
+            "scaleX": 0.485639781,
+            "scaleY": 1.0,
+            "scaleZ": 0.485639781
+          },
+          "Nickname": "Изысканный секач",
+          "Description": "физ.урон -1\r\nмаг.урон 16\r\nинтелект 2",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/191794759851015664/C1D7139A50D4BE602A2E3C43A887BA3C2EA50C2D/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "6ffc31"
+        }
+      ],
+      "GUID": "6ccced"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 5.43040037,
+        "posY": 1.05999327,
+        "posZ": -1.74453,
+        "rotX": 0.0,
+        "rotY": 353.929138,
+        "rotZ": 0.0,
+        "scaleX": 5.189811,
+        "scaleY": 1.0,
+        "scaleZ": 5.189811
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/780747087038884929/C1940E40A55F05B81D23A1214B7B1663FBB47822/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "--[[StartXML\r\n<Defaults>\r\n  <Button onClick=\"onClick\" fontSize=\"80\" fontStyle=\"Bold\" textColor=\"#FFFFFF\" color=\"#000000F0\"/>\r\n  <Text fontSize=\"80\" fontStyle=\"Bold\" color=\"#FFFFFF\"/>\r\n  <InputField fontSize=\"70\" color=\"#000000F0\" textColor=\"#FFFFFF\" characterValidation=\"Integer\"/>\r\n</Defaults>\r\n<Panel id=\"panel\" position=\"0 54 -15\" rotation=\"180 180 0\" active=\"True\" scale=\"0.1 0.1\">\r\n<VerticalLayout    height=\"280\" width=\"600\" >\r\n<HorizontalLayout position=\"0 0 -100\">\r\n  <Button id=\"takeItem1\" fontSize=\"45\" text=\"Take\"  color=\"#000000F0\"></Button>\r\n</HorizontalLayout>\r\n<HorizontalLayout position=\"0 0 -100\">\r\n  <Button id=\"StartRoll\" fontSize=\"45\" text=\"Twist\"  color=\"#000000F0\"></Button>\r\n</HorizontalLayout>\r\n<HorizontalLayout position=\"0 0 -100\">\r\n  <Button id=\"test\" fontSize=\"45\" text=\"Remove\"  color=\"#000000F0\"></Button>\r\n</HorizontalLayout>\r\n</VerticalLayout>\r\n</Panel>\r\nStopXML--xml]]\r\nrouletteWheelGUID = '8dd151'\r\nrouletteWheel = nil\r\n--Wait.time(function() findBagInSphere() end, 1, -1)\r\nfunction onload ()\r\n    local script = self.getLuaScript()\r\n    local xml = script:sub(script:find(\"StartXML\")+8, script:find(\"StopXML\")-1)\r\n    self.UI.setXml(xml)\r\n    rouletteWheel = getObjectFromGUID(rouletteWheelGUID)\r\nend\r\nspinning = false\r\nstartTime = 0\r\nspinTime = 11\r\n\r\npos2x = 6.5\r\nfunction onClick(player, value, id)\r\n    if id == \"StartRoll\" then\r\n\r\n        parameters =\r\n        {\r\n            url=\"http://cloud-3.steamusercontent.com/ugc/780747252121748044/5EC7D41AEE57CA90BDF4F6C49142EB0A00A1CE11/\",\r\n            title=\"Roll\"\r\n        }\r\n        MusicPlayer.setCurrentAudioclip(parameters)\r\n        MusicPlayer.play()\r\n        Wait.time(function() Start ()  end, 0.4, 0)\r\n    end\r\n    if id == \"takeItem1\" then\r\n        takeItem()\r\n    end\r\n    if id == \"test\" then\r\n        win()\r\n        PauseMusic()\r\n\r\n    end\r\nend\r\nfunction Start ()\r\n    if spinning == false then\r\n        self.UI.setAttribute(\"panel\", \"active\", false)\r\n        startTime = os.clock()\r\n        startLuaCoroutine(self, 'SpinCoroutine')\r\n    end\r\nend\r\n\r\nfunction SpinCoroutine ()\r\n    spinning = true\r\n    timeDiff = os.clock() - startTime\r\n\r\n    prevClock = os.clock()\r\n\r\n    while timeDiff < spinTime do\r\n\r\n        timeDelta = os.clock() - prevClock --make spinning frame independent by getting delta\r\n        prevClock = os.clock()\r\n\r\n        spinSpeed = (spinTime - timeDiff) * timeDelta * 60\r\n\r\n        currentRot = rouletteWheel.getRotation()\r\n        currentRot['x'] = 0\r\n        currentRot['y'] = currentRot['y'] + spinSpeed\r\n        currentRot['z'] = 0\r\n        rouletteWheel.setRotation(currentRot)\r\n\r\n        coroutine.yield(0) --wait one frame\r\n\r\n        timeDiff = os.clock() - startTime\r\n    end\r\n\r\n    spinning = false\r\n    self.UI.setAttribute(\"panel\", \"active\", true)\r\n    tester = self.getRotation()\r\n    win()\r\n    parameters =\r\n    {\r\n        url=\"http://cloud-3.steamusercontent.com/ugc/780747252121735913/FCCEB8C58BC64FAD4C0610581BB8E910ED159B9A/\",\r\n        title=\"RollWin\"\r\n    }\r\n    MusicPlayer.setCurrentAudioclip(parameters)\r\n    MusicPlayer.play()\r\n    return 1\r\nend\r\n\r\nfunction findBag()\r\n    local itemsInBowl = findBagInSphere()\r\n    for _, entry in ipairs(itemsInBowl) do\r\n        if entry.hit_object ~= self then\r\n            local tableEntry = entry.hit_object.getGUID()\r\n            print(tableEntry)\r\n            if descAGI ~= nil then\r\n                totalAGI = tableEntry\r\n            end\r\n        end\r\n    end\r\n    print(totalAGI)\r\nend\r\n\r\n\r\n\r\nfunction table.map(func, array)\r\n    local new_array = {}\r\n    for i,v in ipairs(array) do\r\n        new_array[i] = func(v)\r\n    end\r\n    return new_array\r\nend\r\nfunction table.min(func, array)\r\n    local val = array[1]\r\n    local min = func(val)\r\n    local x = min\r\n    for k, v in ipairs(array) do -- TODO: optimize\r\n        x = func(v)\r\n        if x < min then\r\n            val, min = v, x\r\n        end\r\n    end\r\n    return val\r\nend\r\nfunction table.slice(tbl, first, last, step)\r\n    local sliced = {}\r\n    for i = first or 1, last or #tbl, step or 1 do\r\n        sliced[#sliced+1] = tbl[i]\r\n    end\r\n    return sliced\r\nend\r\nfunction table.findIndex(func, xs)\r\n    for k, v in ipairs(xs) do\r\n        if func(v) then\r\n            return k\r\n        end\r\n    end\r\n    return nil\r\nend\r\nfunction table.append(t1, t2)\r\n    for i=1, #t2 do\r\n        t1[#t1+1] = t2[i]\r\n    end\r\n    return t1\r\nend\r\n\r\ncards = {}\r\nfunction win ()\r\n    local pos = self.getPosition()\r\n    local r = self.getBounds().size[1] / 2.\r\n\r\n    local alphaGrad = self.getRotation()[\"y\"]\r\n\r\n    local alpha = math.pi * alphaGrad / 180.\r\n\r\n    local p = { r * math.sin(alpha) + pos[\"x\"], pos[\"y\"], r * math.cos(alpha) + pos[\"z\"] }\r\n\r\n\r\n    local closest =\r\n        table.min(function(x)\r\n            function length (x, y)\r\n                -- function length ({x1, y1, z1}, {x2, y2, z2})\r\n                    return math.sqrt((y[1] - x[1])^2 + (y[2] - x[2])^2 + (y[3] - x[3])^2)\r\n                    -- return math.sqrt((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2)\r\n                end\r\n            return length(p, x.getPosition())\r\n        end, cards)\r\n\r\n    function blink (closest)\r\n        local color = closest.getColorTint()\r\n        closest.setColorTint({r=1, g=0, b=0})\r\n        Wait.time(function () closest.setColorTint(color) end, 0.3)\r\n    end\r\n\r\n    local i = table.findIndex(function(x) return x == closest end, cards)\r\n\r\n    local ys = table.append(table.slice(cards, i), table.slice(cards, 1, i - 1))\r\n\r\n    function f (i)\r\n        if i <= #ys then\r\n            Wait.time(function ()\r\n                --blink(ys[i])\r\n                ys[i].destruct()\r\n                f(i+1)\r\n            end, 0.1)\r\n        end\r\n    end\r\n    f(2)\r\nend\r\n\r\n\r\nfunction takeItem ()\r\n    local pos = self.getPosition()\r\n          pos_x = pos.x\r\n    local pos_y = pos.y\r\n    local pos_z = pos.z\r\n    local ibag = getObjectFromGUID(\"6ccced\")\r\n    cards = {}\r\n    function circle(c, r, t)\r\n        return { r * math.cos(t) + c[1], r * math.sin(t) + c[2] }\r\n    end\r\n    local r = self.getBounds().size[1] / 2. - 2.7\r\n    local count = 16.\r\n    local step = (2. * math.pi) / count\r\n    function loop(i)\r\n        if i < 2. * math.pi then\r\n            local p = circle({pos_x, pos_z}, r, i)\r\n            card = ibag.takeObject({['position'] = { p[1], pos_y+0.5, p[2]}, ['smooth'] = false } )\r\n\r\n            card.setRotation({0, ((math.pi / 2. - i) * 180.) / math.pi, 0})\r\n\r\n            cards[#cards+1] = card\r\n            Wait.time( function() loop(i + step) end, 0.1)\r\n        end\r\n    end\r\n    loop(0.)\r\nend\r\n\r\n\r\n\r\n--Plays currently loaded audioclip when everyone has loaded the audioclip.\r\nfunction PlayMusic()\r\n  --Wait for everyone to load the audioclip.\r\n  while MusicPlayer.loaded == false do\r\n      coroutine.yield(0)\r\n  end\r\n\r\n  --Play audioclip.\r\n  parameters =\r\n  {\r\n      url=\"http://cloud-3.steamusercontent.com/ugc/780747252121748044/5EC7D41AEE57CA90BDF4F6C49142EB0A00A1CE11/\",\r\n      title=\"Roll\"\r\n  }\r\n  MusicPlayer.setCurrentAudioclip(parameters)\r\n  MusicPlayer.play()\r\n\r\n  return 1\r\nend\r\n\r\n\r\n\r\n\r\nfunction findBagInSphere(pos)\r\n    local scale = self.getScale()\r\n    pos = self.getPosition()\r\n    pos.y=pos.y\r\n    pos.x=pos.x+ pos_x\r\n    pos.z=pos.z\r\n    return Physics.cast({\r\n        origin=pos, direction={0,1,0}, type=3, max_distance=0.1,\r\n        size={scale.x-3.5,scale.y,scale.z-3.5}, debug=true\r\n    })\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "8dd151"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -3.91320634,
+        "posY": 1.0099932,
+        "posZ": 7.284934,
+        "rotX": -3.004304E-05,
+        "rotY": 104.985947,
+        "rotZ": 2.251209E-05,
+        "scaleX": 0.485639781,
+        "scaleY": 1.0,
+        "scaleZ": 0.485639781
+      },
+      "Nickname": "Изысканный секач",
+      "Description": "физ.урон -1\r\nмаг.урон 16\r\nинтелект 2",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/191794759851015664/C1D7139A50D4BE602A2E3C43A887BA3C2EA50C2D/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f5c3e5"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -6.69298458,
+        "posY": 1.00998974,
+        "posZ": 13.5183153,
+        "rotX": 2.57449346E-06,
+        "rotY": 300.207977,
+        "rotZ": 1.63450281E-07,
+        "scaleX": 0.485639781,
+        "scaleY": 1.0,
+        "scaleZ": 0.485639781
+      },
+      "Nickname": "Изысканный секач",
+      "Description": "физ.урон -1\r\nмаг.урон 16\r\nинтелект 2",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/191794759851015664/C1D7139A50D4BE602A2E3C43A887BA3C2EA50C2D/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "abfe2f"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 5.43039751,
+        "posY": 1.20999324,
+        "posZ": 4.872609,
+        "rotX": 3.2858555E-08,
+        "rotY": -2.242318E-05,
+        "rotZ": 2.00569783E-08,
+        "scaleX": 0.485639781,
+        "scaleY": 1.0,
+        "scaleZ": 0.485639781
+      },
+      "Nickname": "Изысканный секач",
+      "Description": "физ.урон -1\r\nмаг.урон 16\r\nинтелект 2",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/191794759851015664/C1D7139A50D4BE602A2E3C43A887BA3C2EA50C2D/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ee73e8"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.2.2"
+}
